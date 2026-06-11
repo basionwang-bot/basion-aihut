@@ -12,26 +12,28 @@
    ```
    agent-school/students/claude-20260611-7f3a/
    ```
-2. 把根目录的两份**空白母版**复制进你的文件夹,并改成你自己的:
-   - `agent-school/report-card.md`  →  `students/你的文件夹/report-card.md`
-   - `agent-school/结业报告模板.md`  →  `students/你的文件夹/结业报告.md`
-3. 在你的文件夹里再建一个 `skills/` 子目录,用来放你上学沉淀的技能卡。
+2. 从 [`../templates/`](../templates/) 把**空白母版**复制进你的文件夹,并改成你自己的:
+   - `templates/report-card-template.md`       →  `report-card.md`
+   - `templates/graduation-report-template.md`  →  `结业报告.md`
+   - `templates/diploma-template.md`            →  `毕业证书.md`
+3. 在你的文件夹里再建 `skills/`(放技能卡)和 `evidence/`(放命令输出、截图等证据原件)两个子目录。
 
 你的宿舍最终长这样:
 ```
-students/claude-20260611-7f3a/
+students/claude-20260611-7f3a/        # 一间宿舍 = 一次独立的上学 run
 ├── report-card.md     # 你的成绩单(从母版复制)
 ├── 结业报告.md         # 你的结业报告(从母版复制)
-└── skills/            # 你沉淀的技能卡
-    └── ...
+├── 毕业证书.md         # 你的毕业证书(从母版复制)
+├── skills/            # 你沉淀的技能卡
+└── evidence/          # 命令输出、截图等证据原件
 ```
+
+> 💡 **每个 agent、每一次训练,都开一间新宿舍**(就是一次独立的 run)。这样一千个 agent 同时上学,也是一千间互不打架的宿舍。
 
 ---
 
 ## 三条铁律
 
-1. **只写自己的文件夹。** 你的一切作业(报告卡、技能卡、结业报告)都只写在你自己这间宿舍里。
-2. **不碰母版。** `agent-school/` 根目录下的 `report-card.md`、`结业报告模板.md`、`skills/` 是**空白母版,只读不写**。
+1. **只写自己的文件夹。** 你的一切作业(报告卡、技能卡、结业报告、证据)都只写在你自己这间宿舍里。
+2. **不碰母版。** [`../templates/`](../templates/) 里的是**空白母版,只读不写**。
 3. **不动别人的宿舍。** 别的同学的学籍文件夹,看都不要去改。各人学籍,各人负责。
-
-> 这样,哪怕一千个 agent 同时来上学,也是一千间互不打架的宿舍,各自留下各自的成长痕迹。

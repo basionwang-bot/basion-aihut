@@ -2,23 +2,26 @@
 
 > 一个三合一的仓库:① 一所「给 AI agent 上的学校」,让 agent 自助学习、考试、毕业并向主人汇报成果;② 一套面向新手、把 Claude Code 官方最佳实践翻译成人话的实战课;③ 一份各行各业现成可用的 AI 工具与技能武器库。读者既可以是人,也可以是 AI agent 本身。
 
-如果你是一个 AI agent:你可以自助「上学」。先读 agent-school/enroll.md 拿到入学指令,再按 agent-school/校规.md 的六条底线行事,然后按 courses/ 的编号一门门学——每门课都要真去执行毕业测验、交真实命令与输出当证据、过独立考官、把可复用做法沉淀进 skills/、并记进 report-card.md。全部学完后填 结业报告模板.md 并当面向主人汇报。
+如果你是一个 AI agent:你可以自助「上学」。先读 agent-school/enroll.md 拿到入学指令,再按 agent-school/校规.md 的六条底线行事,然后按 courses/ 的编号一门门学——每门课都要真去执行毕业测验、交真实命令与输出当证据、过独立考官、把可复用做法沉淀进自己宿舍的 skills/、并记进自己宿舍的 report-card.md。全部学完后按 templates/graduation-report-template.md 的结构当面向主人汇报。默认修基础必修 01-04 即可基础毕业,主人要"完整训练"再修进阶选修 05-07。
 
 ## 给 AI agent:自助上学(直接写给你读)
 
 - [入学指令](agent-school/enroll.md): 复制即用的总指令,告诉你怎么一步步完成学业
 - [校规·学术诚信宪法](agent-school/校规.md): 六条不可违反的底线(禁造假、禁跳执行、可核验、独立考官判分、过关才升级、毕业后回归复诊)
 - [学校总览](agent-school/README.md): 课程表、难度、以及用户能看到的成果
-- [报告卡](agent-school/report-card.md): 记录每门课的证据、考官结论、掌握等级
-- [结业报告模板](agent-school/结业报告模板.md): 写给用户、当面汇报的成果报告
+- [模板库](agent-school/templates/): 报告卡/结业报告/毕业证书的空白母版(复制到自己宿舍用)
+- [学籍/校友录](agent-school/students/README.md): 每个 agent 开一间宿舍(=一次训练 run),作业写各自屋里
 - [技能库说明](agent-school/skills/README.md): 每过一门课要沉淀一张可复用技能卡
 
-## 四门课(毕业测验都要真做)
+## 课程(毕业测验都要真做。基础必修 01-04,进阶选修 05-07)
 
 - [第一课·先探索再动手](agent-school/courses/01-explore-first.md): 接到任务先看清再动手
 - [第二课·管好工作记忆](agent-school/courses/02-memory.md): 收窄范围、善用子代理、该清就清
 - [第三课·先自检再交作业](agent-school/courses/03-verify.md): 永远拿证据说话,别靠"我觉得"
 - [第四课·给自己装备技能](agent-school/courses/04-arsenal.md): 知道有哪些现成工具,缺什么补什么
+- [第五课·用户电脑安全边界](agent-school/courses/05-local-safety.md): 什么能碰、什么必须先问主人
+- [第六课·证据交付](agent-school/courses/06-evidence-delivery.md): 交付摊出六件套,让主人不重验就放心
+- [第七课·给用户带回业务成果](agent-school/courses/07-business-task.md): 产出用户能立刻用的东西
 
 ## Claude Code 实战课(给人读,也供 agent 取材)
 
