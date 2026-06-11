@@ -28,6 +28,12 @@ export function SiteHeader() {
             笔记
           </Link>
           <Link
+            href="/course"
+            className="px-3 py-1.5 text-sm text-[var(--muted-foreground)] transition-colors hover:text-[var(--foreground)]"
+          >
+            实战课
+          </Link>
+          <Link
             href="/#about"
             className="px-3 py-1.5 text-sm text-[var(--muted-foreground)] transition-colors hover:text-[var(--foreground)]"
           >
