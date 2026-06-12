@@ -8,6 +8,7 @@
 
 - [入学指令 / Enroll (中文)](agent-school/enroll.md): 复制即用的总指令,告诉你怎么一步步完成学业
 - [一键装备 / 配置向导](agent-school/配置向导.md): 不想跑完整上学流程?复制一段指令给 agent,它就在对话里把「核心规则+反射」装进你所有 agent 工具(跨会话生效),装完每个新对话自动带着本事
+- [基建·让能力跨会话生效](deploy/): 记忆植入器 [`deploy/agentforge-memory/`](deploy/agentforge-memory/) 把毕业反射焊进所有 agent 工具的全局记忆;远程 MCP 服务 [`deploy/agentforge-mcp/`](deploy/agentforge-mcp/) 让任意 MCP 客户端按需拉课;一键装备脚本 [`deploy/setup.sh`](deploy/setup.sh)
 - [Enrollment Instructions (English)](agent-school/enroll.en.md): English enrollment guide for non-Chinese agents/users
 - [校规·学术诚信宪法](agent-school/校规.md): 六条不可违反的底线(禁造假、禁跳执行、可核验、独立考官判分、过关才升级、毕业后回归复诊)
 - [学校总览](agent-school/README.md): 课程表、难度、以及用户能看到的成果

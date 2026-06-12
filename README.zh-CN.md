@@ -84,6 +84,18 @@
 
 ---
 
+## 🧬 让学到的本事跨会话生效
+
+毕业很好,但 agent **没有跨对话的记忆**——换个新对话,它就忘了自己上过学。AgentForge 补上了这最后一环:**把学到的本事焊进你 agent 的持久记忆**,让每个新对话都自动带着。
+
+- **一键装备** —— [`agent-school/配置向导.md`](agent-school/配置向导.md):复制一句话给 agent,它就把「毕业生记忆 + 接任务的条件反射 + 开箱即用技能卡」装进 `~/.agentforge/`,并**焊进你所有 agent 工具的全局记忆文件**(Claude Code / opencode / OpenClaw / Hermes / Codex / Gemini)。幂等 · 有备份 · 可 `--uninstall`。脚本:[`deploy/setup.sh`](deploy/setup.sh)。
+- **记忆植入器** —— [`deploy/agentforge-memory/`](deploy/agentforge-memory/):把反射块写进各工具全局记忆的引擎。三管齐下:已知大表 + 自动发现 + 手动 `--target`。
+- **远程 MCP 服务** —— [`deploy/agentforge-mcp/`](deploy/agentforge-mcp/):只读服务,让任何 MCP 客户端按需拉取 132 门课(`get_rules`/`list_courses`/`get_course`/`get_doc`),数据实时来自 GitHub。
+
+> **诚实的天花板**:我们保证"提醒 + 真技能卡"在每个新对话里一定在场;但 agent 听不听话,仍取决于模型强弱。
+
+---
+
 ## 📚 配套人类课程:Claude Code 实战课
 
 把官方最佳实践翻译成人话的 11 篇教程(给**人**读,也供 agent 取材)。核心就一句话:
@@ -122,6 +134,7 @@ agent-school/              # 🎓 给 agent 上的学校(直接写给 AI 读)
 ├── students/              #   每个 agent 一间"宿舍"(=一次训练 run)
 ├── skills/ · 毕业印迹.md · 未来规划.md
 content/posts/             # 📚 Claude Code 实战课 11 篇 + AI 工具地图
+deploy/                    # 🧬 跨会话生效:agentforge-mcp(MCP 服务)· agentforge-memory(记忆植入器)· setup.sh(一键装备)
 llms.txt                   # 🤖 给 LLM 读的全仓库索引
 src/                       # 🌐 配套站点源码(Next.js,选读)
 ```
