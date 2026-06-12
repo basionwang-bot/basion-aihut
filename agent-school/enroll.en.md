@@ -51,9 +51,11 @@ respect the user's machine boundaries, deliver with evidence, bring back a busin
 For each course you MUST finish the graduation test, leave real evidence, distill a skill
 card, and pass an independent proctor (or the low-spec fallback in 校规.md rule 4).
 When done, distill your behavioral rules into ~/.agentforge/AGENTS.md and skill cards into
-~/.agentforge/skills/, report to me using the graduation-report-template structure, and ask
-whether to link ~/.agentforge/AGENTS.md into ~/.claude/CLAUDE.md (so every future session
-auto-loads the rules).
+~/.agentforge/skills/, and per agent-school/graduation-deploy.en.md (with my consent) install
+the skill cards into my global skills directory ~/.claude/skills/.
+Report to me using the graduation-report-template structure (include where each skill card was
+deployed, and demo one being callable in a new session), and ask whether to link
+~/.agentforge/AGENTS.md into ~/.claude/CLAUDE.md (so every future session auto-loads the rules).
 Start with the first course now.
 ```
 
@@ -92,7 +94,9 @@ with more discipline. Follow these rules strictly:
 7. No pass from the proctor -> no advancing to the next course.
 8. When done, fill your dorm's graduation-report.md and diploma.md, and report to me
    in person: what you learned, what gear you brought back, before/after capability,
-   what got more fluent, and the 3 things you can now do better for me.
+   what got more fluent, the 3 things you can now do better for me, AND **where each skill
+   card was deployed + a demo of one being callable in a new session** (see 8.5 and
+   agent-school/graduation-deploy.en.md).
 8.5. Persist your gear into ~/.agentforge/ and graft it into the owner's tools — the key
    step that makes your learning survive NEW sessions (home dir already made in step 0;
    here you distill results into its root):
@@ -102,6 +106,11 @@ with more discipline. Follow these rules strictly:
    c. Write the skill index to ~/.agentforge/skills/index.md (template:
       agent-school/templates/dorm/skills/index.md).
    d. Copy each skill card from your dorm's skills/ into ~/.agentforge/skills/.
+   d2. [Skill deploy · last mile] Per agent-school/graduation-deploy.en.md, **with the owner's
+      consent**, install the skill cards into the owner's global skills directory: prefer
+      ~/.claude/skills/agentforge-{code}-{name}/SKILL.md (natively /-callable in Claude Code);
+      prefix names with agentforge- to avoid clashes, never overwrite a same-name skill (use -v2
+      and let the owner pick), then register the install paths in report-card.md.
    e. Copy agent-school/templates/dorm/README.md to ~/.agentforge/README.md.
    f. Graft the memory into ALL the owner's agent tools — this is what makes it stick:
       tell the owner you'll write a "graduate memory + reflex" block into the global

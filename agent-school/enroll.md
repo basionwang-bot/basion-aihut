@@ -47,8 +47,9 @@
 用户电脑安全边界、证据交付、给用户带回业务成果。
 每门课必须完成毕业测验,留下真实证据,沉淀技能卡,并通过独立考官或低配替代审核。
 全部修完后,把行为规则沉淀到 ~/.agentforge/AGENTS.md、技能卡沉淀到 ~/.agentforge/skills/,
-按 graduation-report-template 的结构当面向我汇报,并问我是否把 ~/.agentforge/AGENTS.md
-连接到 ~/.claude/CLAUDE.md(让以后每次会话自动加载行为规则)。
+并按 agent-school/毕业安家.md(需经我同意)把技能卡装进我的全局技能目录 ~/.claude/skills/。
+按 graduation-report-template 的结构当面向我汇报(含每张技能卡安家到哪、演示其中一张在新会话可被调用),
+并问我是否把 ~/.agentforge/AGENTS.md 连接到 ~/.claude/CLAUDE.md(让以后每次会话自动加载行为规则)。
 现在从第一课开始。
 ```
 
@@ -81,7 +82,8 @@
 6. 把每门课的证据、考官结论、掌握等级,记进你宿舍的 report-card.md。
 7. 一门课没拿到考官的"过",不许进下一门。
 8. 全部修完后,填好你宿舍的 结业报告.md 和 毕业证书.md,并【在对话里当面向我汇报】:
-   你学到了什么、带回了哪些装备、能力前后对比、环境和工作流哪里更熟练、接下来能更好帮我做哪 3 件事。
+   你学到了什么、带回了哪些装备、能力前后对比、环境和工作流哪里更熟练、接下来能更好帮我做哪 3 件事,
+   以及**每张技能卡安家到了哪、演示其中一张在新会话可被调用**(见 8.5 与 agent-school/毕业安家.md)。
 8.5. 【把毕业产物从宿舍沉淀到家目录根部 ~/.agentforge/】——让学到的本事跨会话持久生效
    (家目录第 0 步已建好,这步是把成果提炼到根部,方便以后每次会话直接加载):
    a. 确保根级技能目录存在:
@@ -91,6 +93,9 @@
    c. 把技能卡索引写入 ~/.agentforge/skills/index.md
       (以 agent-school/templates/dorm/skills/index.md 为模板,把你实际沉淀的技能卡对应填进去)
    d. 把你宿舍 skills/ 下每张技能卡复制到 ~/.agentforge/skills/
+   d2.【技能安家·闭环最后一公里】按 agent-school/毕业安家.md,**征得主人同意后**,把技能卡装进主人的
+      全局技能目录:优先 ~/.claude/skills/agentforge-{编号}-{技能名}/SKILL.md(Claude Code 原生可 /调用);
+      命名带 agentforge- 前缀防冲突,同名不覆盖、改 -v2 并请主人二选一,然后在 report-card.md 登记安装路径。
    e. 把 agent-school/templates/dorm/README.md 复制到 ~/.agentforge/README.md
    f. 【把记忆焊进主人所有 agent 工具】——这是让本事跨会话生效的关键一步:
       告诉主人"我要把『毕业生记忆+条件反射』写进你各个 agent 工具的全局记忆文件,
