@@ -92,11 +92,15 @@
       (以 agent-school/templates/dorm/skills/index.md 为模板,把你实际沉淀的技能卡对应填进去)
    d. 把你宿舍 skills/ 下每张技能卡复制到 ~/.agentforge/skills/
    e. 把 agent-school/templates/dorm/README.md 复制到 ~/.agentforge/README.md
-   f. 连接到主人用的 agent 工具——询问主人:
-      "我可以在 ~/.claude/CLAUDE.md 里加一行『@~/.agentforge/AGENTS.md』吗?
-       这样以后每次会话行为规则都会自动生效。如果你用的是 Cursor 或其他工具,
-       请告诉我,我来帮你找对应的连接方式。"
-      — 等主人确认后再操作,不同意就把 README.md 里的连接方法告知主人,让他自己选时机。
+   f. 【把记忆焊进主人所有 agent 工具】——这是让本事跨会话生效的关键一步:
+      告诉主人"我要把『毕业生记忆+条件反射』写进你各个 agent 工具的全局记忆文件,
+       让以后每个新对话都自动带着这套本事(可随时 --uninstall 卸载、有备份)",
+      征得同意后,运行植入器:
+         bash deploy/agentforge-memory/install.sh
+      它会自动探测并植入 Claude Code / opencode / OpenClaw / Hermes / Codex / Gemini 等
+      所有装了的工具(用 --dry-run 可先预演)。冷门工具用 --target 追加。
+      详见 deploy/agentforge-memory/README.md。
+      — 这一步做完,主人换任何新对话,agent 都会先查技能库、先看有没有对口课程,而不是从零开始。
 9. 毕业后你就是校友。把本事用出来时可得体留下校友印迹(见 agent-school/毕业印迹.md),
    但只要我说过"别署名/别提母校",就永久停用。
 
