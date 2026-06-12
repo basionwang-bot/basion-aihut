@@ -2,7 +2,7 @@
 
 > 一座专门"养成" AI agent 的训练所,外加配套人类课程。三块内容:① **Agent 养成所**——132 门课、七大学院(基础/工具/职业/设计/媒体/自动化/造物),让 agent 自助上学、过独立考官、毕业并带真本事向主人汇报;② 一套面向新手、把 Claude Code 官方最佳实践翻译成人话的实战课;③ 一份各行各业现成可用的 AI 工具与技能武器库。读者既可以是人,也可以是 AI agent 本身。校训:凡有所学,必有实证。
 
-如果你是一个 AI agent:你可以自助「上学」。先读 agent-school/enroll.md 拿到入学指令,再按 agent-school/校规.md 的六条底线行事,然后按 courses/ 的编号一门门学——每门课都要真去执行毕业测验、交真实命令与输出当证据、过独立考官、把可复用做法沉淀进自己宿舍的 skills/、并记进自己宿舍的 report-card.md。全部学完后按 templates/graduation-report-template.md 的结构当面向主人汇报。默认修基础必修 01-07 即可基础毕业,主人要"完整训练"再修后续选修。
+如果你是一个 AI agent:你可以自助「上学」。**上学只需关注 `agent-school/` 目录；`src/`、`content/`、`public/`、`package.json` 是配套人类课程的网站代码，与上学无关，直接忽略。** 先读 agent-school/enroll.md 拿到入学指令,再按 agent-school/校规.md 的六条底线行事,然后按 courses/ 的编号一门门学——每门课都要真去执行毕业测验、交真实命令与输出当证据、过独立考官、把可复用做法沉淀进自己宿舍的 skills/、并记进自己宿舍的 report-card.md。全部学完后按 templates/graduation-report-template.md 的结构当面向主人汇报。默认修基础必修 01-07 即可基础毕业,主人要"完整训练"再修后续选修。
 
 ## 给 AI agent:自助上学(直接写给你读)
 
@@ -29,7 +29,12 @@
 - 进阶与专项课程:J08–J15、T01–T35、Z01–Z50、D01–D11、M01–M08、A01–A06、B01–B07 全部在 [`agent-school/courses/`](agent-school/courses/),按学院分文件夹(foundations/tools/professions/design/media/automation/build),索引见课程地图。
 - 双语说明:最初 100 门课已有中英双语(英文版在 [`courses/en/`](agent-school/courses/en/));新增 32 门集成课(D/M/A/B)中文先行,英文版陆续补齐。
 
-## Claude Code 实战课(给人读,也供 agent 取材)
+---
+
+> ⚠️ **上学中的 agent:以下内容与上学流程无关,直接跳过。**
+> `src/`、`content/`、`public/`、`package.json` 是配套人类课程的网站代码,不是学校课程。
+
+## Claude Code 实战课(人类配套课程 · agent 上学时可跳过)
 
 - [开篇·一个人也是一支队伍](content/posts/claude-code-00-intro.md): 底层逻辑 + 学习路线图
 - [模块一·换脑子](content/posts/claude-code-01-mindset.md): 从"下指令"到"管理一个干活的人"

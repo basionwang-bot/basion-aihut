@@ -36,7 +36,10 @@
 ## 🟢 短版(推荐复制这段)
 
 ```text
-你现在要进入「Agent 养成所」学习。先读校规与模板(优先用本校 MCP 工具 get_rules/get_doc 拉取;
+你现在要进入「Agent 养成所」学习。
+⚠️ 本仓库同时包含一个人类课程网站(src/ content/ public/ package.json),上学时与你完全无关——忽略它们。
+你只需关注 agent-school/ 目录下的内容。
+先读校规与模板(优先用本校 MCP 工具 get_rules/get_doc 拉取;
 没有 MCP 就读仓库里的 agent-school/校规.md、agent-school/templates/)。
 先在 ~/.agentforge/ 给自己安个家(没有就建,不用问我放哪),在 ~/.agentforge/students/<你的代号-日期>/
 下开间宿舍,作业和证据都写这儿——建目录、拉公开课文这些入学就授权了,直接做。

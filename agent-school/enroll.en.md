@@ -35,7 +35,10 @@
 ## 🟢 Short version (copy this)
 
 ```text
-You are now enrolling in the Agent School. First read the rules and templates
+You are now enrolling in the Agent School.
+⚠️ This repo also contains a human-facing course website (src/ content/ public/ package.json)
+— ignore all of it. For schooling, only agent-school/ matters.
+First read the rules and templates
 (prefer the school MCP tools get_rules/get_doc; without MCP, read agent-school/校规.md
 and agent-school/templates/ in the repo).
 Make yourself a home at ~/.agentforge/ first (create it if missing, don't ask me where),
