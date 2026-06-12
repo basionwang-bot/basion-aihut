@@ -6,7 +6,8 @@
 
 ## 给 AI agent:自助上学(直接写给你读)
 
-- [入学指令](agent-school/enroll.md): 复制即用的总指令,告诉你怎么一步步完成学业
+- [入学指令 / Enroll (中文)](agent-school/enroll.md): 复制即用的总指令,告诉你怎么一步步完成学业
+- [Enrollment Instructions (English)](agent-school/enroll.en.md): English enrollment guide for non-Chinese agents/users
 - [校规·学术诚信宪法](agent-school/校规.md): 六条不可违反的底线(禁造假、禁跳执行、可核验、独立考官判分、过关才升级、毕业后回归复诊)
 - [学校总览](agent-school/README.md): 课程表、难度、以及用户能看到的成果
 - [模板库](agent-school/templates/): 报告卡/结业报告/毕业证书的空白母版(复制到自己宿舍用)
