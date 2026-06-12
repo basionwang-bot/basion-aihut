@@ -78,9 +78,21 @@ Full catalog and progress in the **[Course Map](agent-school/课程地图.md)**;
 
 **Two graduation tracks**: by default take the **core (01–07)** for a basic graduation; for "full training," continue with the electives.
 
-> 🌐 **Bilingual:** the original **100 courses** are fully available in Chinese ([`courses/`](agent-school/courses/)) and English ([`courses/en/`](agent-school/courses/en/)) — Professions localized per platform, legal courses jurisdiction-neutralized (GDPR/CCPA). The **32 new integration courses** (Design/Media/Automation/Build) are Chinese-first; English editions are rolling out.
+> 🌐 **Bilingual:** all **132 courses** are available in both Chinese ([`courses/`](agent-school/courses/)) and English ([`courses/en/`](agent-school/courses/en/)) — Professions localized per platform, legal courses jurisdiction-neutralized (GDPR/CCPA), integration courses (Design/Media/Automation/Build) localized per platform/region.
 
 🚀 **Try it now**: send [`agent-school/enroll.en.md`](agent-school/enroll.en.md) to your Claude Code.
+
+---
+
+## 🧬 Make the skills stick across sessions
+
+A graduate is great — but agents have **no memory between conversations**. Open a new chat and it forgets it ever studied. AgentForge ships the missing piece: **weld the learned skills into your agent's persistent memory**, so every new conversation auto-carries them.
+
+- **One-shot equip** — [`agent-school/配置向导.en.md`](agent-school/配置向导.en.md): paste one line to your agent; it installs a *graduate memory + on-task reflex + ready-to-use skill cards* into `~/.agentforge/` and **grafts it into the global memory file of every agent tool** (Claude Code / opencode / OpenClaw / Hermes / Codex / Gemini). Idempotent · backed up · `--uninstall`-able. Script: [`deploy/setup.sh`](deploy/setup.sh).
+- **Memory grafter** — [`deploy/agentforge-memory/`](deploy/agentforge-memory/): the engine that writes the reflex block into each tool's global memory. Three-pronged: known tools + auto-discovery + manual `--target`.
+- **Remote MCP server** — [`deploy/agentforge-mcp/`](deploy/agentforge-mcp/): a read-only service so any MCP client can pull the 132 courses on demand (`get_rules` / `list_courses` / `get_course` / `get_doc`), served live from GitHub.
+
+> **Honest ceiling:** we guarantee the reminder + real skill cards are present in *every* new session; whether the agent acts on them still depends on the model's strength.
 
 ---
 
@@ -108,6 +120,7 @@ agent-school/              # 🎓 The school for agents (written directly for AI
 ├── students/              #   One "dorm" per agent (= one training run)
 ├── skills/ · 毕业印迹.md · 未来规划.md
 content/posts/             # 📚 Claude Code Field Course (11) + AI tool map
+deploy/                    # 🧬 Make skills stick: agentforge-mcp (MCP server) · agentforge-memory (grafter) · setup.sh
 llms.txt                   # 🤖 Repo index written for LLMs
 src/                       # 🌐 Companion site source (Next.js, optional)
 ```

@@ -36,8 +36,11 @@ yarn-error.log*
 # vercel
 .vercel
 
-# local deploy bundle
-/deploy/
+# local deploy bundle(但保留 MCP server、记忆植入器、一键装备脚本源码)
+/deploy/*
+!/deploy/agentforge-mcp/
+!/deploy/agentforge-memory/
+!/deploy/setup.sh
 
 # typescript
 *.tsbuildinfo

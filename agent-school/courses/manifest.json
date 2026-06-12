@@ -1,0 +1,1866 @@
+{
+  "school": "Agent 养成所 · AgentForge",
+  "repo": "basionwang-bot/AgentForge",
+  "branch": "main",
+  "raw_base": "https://raw.githubusercontent.com/basionwang-bot/AgentForge/main/",
+  "faculties": {
+    "foundations": "基础",
+    "tools": "工具",
+    "professions": "职业",
+    "design": "设计",
+    "media": "媒体",
+    "automation": "自动化",
+    "build": "造物"
+  },
+  "count": 264,
+  "courses": [
+    {
+      "code": "A01",
+      "title": "Lesson A01 · Node-RED: Draw Your First Automation Pipeline by \"Connecting the Dots\"",
+      "faculty": "automation",
+      "lang": "en",
+      "path": "agent-school/courses/en/automation/A01-node-red.md"
+    },
+    {
+      "code": "A02",
+      "title": "Lesson A02 · Automatisch: Build Your First \"When A Happens, Do B\" Automation from Scratch",
+      "faculty": "automation",
+      "lang": "en",
+      "path": "agent-school/courses/en/automation/A02-automatisch.md"
+    },
+    {
+      "code": "A03",
+      "title": "Lesson A03 · Activepieces: MIT-Licensed Open Source + 280 Tools Exposed as MCP for Claude to Call",
+      "faculty": "automation",
+      "lang": "en",
+      "path": "agent-school/courses/en/automation/A03-activepieces.md"
+    },
+    {
+      "code": "A04",
+      "title": "Lesson A04 · n8n + n8n-mcp: Let Claude Build Your Automation Workflows in Plain English",
+      "faculty": "automation",
+      "lang": "en",
+      "path": "agent-school/courses/en/automation/A04-n8n.md"
+    },
+    {
+      "code": "A05",
+      "title": "Lesson A05 · Dify: Build a Self-Hostable, LLM-Friendly AI Pipeline — \"Question → Retrieval → AI Answer → Action\"",
+      "faculty": "automation",
+      "lang": "en",
+      "path": "agent-school/courses/en/automation/A05-dify.md"
+    },
+    {
+      "code": "A06",
+      "title": "Lesson A06 · Windmill: Turn a Python/TypeScript Script into a Scheduled or Webhook-Triggered Service",
+      "faculty": "automation",
+      "lang": "en",
+      "path": "agent-school/courses/en/automation/A06-windmill.md"
+    },
+    {
+      "code": "B01",
+      "title": "Lesson B01 · bolt.diy: Build a Full-Stack App in One Sentence",
+      "faculty": "build",
+      "lang": "en",
+      "path": "agent-school/courses/en/build/B01-bolt-diy.md"
+    },
+    {
+      "code": "B02",
+      "title": "Lesson B02 · Dyad: Local-First, Privacy-First AI Website Builder — Code Is 100% Yours",
+      "faculty": "build",
+      "lang": "en",
+      "path": "agent-school/courses/en/build/B02-dyad.md"
+    },
+    {
+      "code": "B03",
+      "title": "Lesson B03 · ToolJet: No-Code Business Back-Office — Even a Small Shop Can Have Its Own Admin System",
+      "faculty": "build",
+      "lang": "en",
+      "path": "agent-school/courses/en/build/B03-tooljet.md"
+    },
+    {
+      "code": "B04",
+      "title": "Lesson B04 · NocoDB: Turn Your Database Into Airtable — Self-Hosted, No-Code Data Management",
+      "faculty": "build",
+      "lang": "en",
+      "path": "agent-school/courses/en/build/B04-nocodb.md"
+    },
+    {
+      "code": "B05",
+      "title": "Lesson B05 · Plane: Open-Source Project Management — Self-Host a Team Board and Run Sprints",
+      "faculty": "build",
+      "lang": "en",
+      "path": "agent-school/courses/en/build/B05-plane.md"
+    },
+    {
+      "code": "B06",
+      "title": "Lesson B06 · Product Manager Skills: Let AI Be Your Product Manager",
+      "faculty": "build",
+      "lang": "en",
+      "path": "agent-school/courses/en/build/B06-pm-skills.md"
+    },
+    {
+      "code": "B07",
+      "title": "Lesson B07 · PRD Creator: Turn an Idea Into a Professional Product Requirements Document",
+      "faculty": "build",
+      "lang": "en",
+      "path": "agent-school/courses/en/build/B07-prd-creator.md"
+    },
+    {
+      "code": "D01",
+      "title": "Lesson D01 · screenshot-to-code: Turn a Screenshot into a Web Page",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D01-screenshot-to-code.md"
+    },
+    {
+      "code": "D02",
+      "title": "Lesson D02 · OpenUI: Describe a Component, See It Instantly",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D02-openui.md"
+    },
+    {
+      "code": "D03",
+      "title": "Lesson D03 · make-real-starter: Whiteboard Sketch → Real Web Page",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D03-make-real.md"
+    },
+    {
+      "code": "D04",
+      "title": "Lesson D04 · ComfyUI: Local AI Image Generation, Total Freedom",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D04-comfyui.md"
+    },
+    {
+      "code": "D05",
+      "title": "Lesson D05 · Brand Artifacts: Wrap Your Work in a Consistent Brand Look",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D05-brand-artifacts.md"
+    },
+    {
+      "code": "D06",
+      "title": "Lesson D06 · Figma MCP: Let the Agent Read Your Design Files",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D06-figma-mcp.md"
+    },
+    {
+      "code": "D07",
+      "title": "Lesson D07 · shadcn/ui: Own Your Design System",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D07-shadcn-ui.md"
+    },
+    {
+      "code": "D08",
+      "title": "Lesson D08 · Icons Done Right, Quality Doubled",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D08-icons.md"
+    },
+    {
+      "code": "D09",
+      "title": "Lesson D09 · One Sentence → Social Media Graphics + Cover Images",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D09-social-card.md"
+    },
+    {
+      "code": "D10",
+      "title": "Lesson D10 · Slides as Code",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D10-slides-as-code.md"
+    },
+    {
+      "code": "D11",
+      "title": "Lesson D11 · Give Claude the Ability to Draw (Advanced)",
+      "faculty": "design",
+      "lang": "en",
+      "path": "agent-school/courses/en/design/D11-image-mcp.md"
+    },
+    {
+      "code": "01",
+      "title": "Lesson 1 · Explore First, Then Act",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/01-explore-first.md"
+    },
+    {
+      "code": "02",
+      "title": "Lesson 2 · Manage Your Working Memory",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/02-memory.md"
+    },
+    {
+      "code": "03",
+      "title": "Lesson 3 · Self-Check Before You Ship",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/03-verify.md"
+    },
+    {
+      "code": "04",
+      "title": "Lesson 4 · Gear Up Your Arsenal",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/04-arsenal.md"
+    },
+    {
+      "code": "05",
+      "title": "Lesson 5 · Safety Boundaries on the User's Machine",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/05-local-safety.md"
+    },
+    {
+      "code": "06",
+      "title": "Lesson 6 · Delivery with Evidence",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/06-evidence-delivery.md"
+    },
+    {
+      "code": "07",
+      "title": "Lesson 7 · Bring Back a Real Business Outcome",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/07-business-task.md"
+    },
+    {
+      "code": "J08",
+      "title": "Lesson J08 · Task Decomposition",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/J08-task-decomposition.md"
+    },
+    {
+      "code": "J09",
+      "title": "Lesson J09 · Reverse-Interview the Requirements: Four Question Types + Seven-Field SPEC",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/J09-reverse-interview.md"
+    },
+    {
+      "code": "J10",
+      "title": "Lesson J10 · Plan Mode",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/J10-plan-mode.md"
+    },
+    {
+      "code": "J11",
+      "title": "Lesson J11 · Error-Correction and Restart Discipline",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/J11-restart-discipline.md"
+    },
+    {
+      "code": "J12",
+      "title": "Lesson J12 · Honest Failure Reporting",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/J12-honest-reporting.md"
+    },
+    {
+      "code": "J13",
+      "title": "Lesson J13 · Review and Regression",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/J13-review-regression.md"
+    },
+    {
+      "code": "J14",
+      "title": "Lesson J14 · Data Minimization and Privacy",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/J14-data-minimization.md"
+    },
+    {
+      "code": "J15",
+      "title": "Lesson J15 · Progress and Time Communication",
+      "faculty": "foundations",
+      "lang": "en",
+      "path": "agent-school/courses/en/foundations/J15-progress-comms.md"
+    },
+    {
+      "code": "M01",
+      "title": "Lesson M01 · auto-editor: Let AI Automatically Cut Pauses and Filler",
+      "faculty": "media",
+      "lang": "en",
+      "path": "agent-school/courses/en/media/M01-auto-editor.md"
+    },
+    {
+      "code": "M02",
+      "title": "Lesson M02 · faster-whisper: Auto-Generate Timestamped Subtitles",
+      "faculty": "media",
+      "lang": "en",
+      "path": "agent-school/courses/en/media/M02-faster-whisper.md"
+    },
+    {
+      "code": "M03",
+      "title": "Lesson M03 · edge-tts: Zero-Cost, One-Command Voiceover Generation",
+      "faculty": "media",
+      "lang": "en",
+      "path": "agent-school/courses/en/media/M03-edge-tts.md"
+    },
+    {
+      "code": "M04",
+      "title": "Lesson M04 · GPT-SoVITS: Clone a Voice from 1 Minute of Sample Audio",
+      "faculty": "media",
+      "lang": "en",
+      "path": "agent-school/courses/en/media/M04-gpt-sovits.md"
+    },
+    {
+      "code": "M05",
+      "title": "Lesson M05 · YuE: AI Composition — Generate BGM From a Theme",
+      "faculty": "media",
+      "lang": "en",
+      "path": "agent-school/courses/en/media/M05-ai-music.md"
+    },
+    {
+      "code": "M06",
+      "title": "Lesson M06 · DeepFilterNet: One Command to Denoise Noisy Recordings to Broadcast Quality",
+      "faculty": "media",
+      "lang": "en",
+      "path": "agent-school/courses/en/media/M06-deepfilternet.md"
+    },
+    {
+      "code": "M07",
+      "title": "Lesson M07 · MoneyPrinterTurbo: Input a Topic, Get a Finished Short Video — Fully Automated",
+      "faculty": "media",
+      "lang": "en",
+      "path": "agent-school/courses/en/media/M07-moneyprinter.md"
+    },
+    {
+      "code": "M08",
+      "title": "Lesson M08 · videocut-skills: Let Claude Be the Editor — End-to-End Podcast Cutting",
+      "faculty": "media",
+      "lang": "en",
+      "path": "agent-school/courses/en/media/M08-videocut-skills.md"
+    },
+    {
+      "code": "Z01",
+      "title": "Lesson Z01 · Newsletter & Blog Content Operations",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z01-wechat-official.md"
+    },
+    {
+      "code": "Z02",
+      "title": "Lesson Z02 · Instagram Content Operations",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z02-xiaohongshu.md"
+    },
+    {
+      "code": "Z03",
+      "title": "Lesson Z03 · TikTok Script Writing",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z03-douyin-script.md"
+    },
+    {
+      "code": "Z04",
+      "title": "Lesson Z04 · YouTube Video Content",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z04-bilibili.md"
+    },
+    {
+      "code": "Z05",
+      "title": "Lesson Z05 · Instagram Reels & YouTube Shorts Content",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z05-shipinhao.md"
+    },
+    {
+      "code": "Z06",
+      "title": "Lesson Z06 · One Draft, Many Platforms: Adapting a Single Piece into Platform-Native Versions",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z06-newsletter.md"
+    },
+    {
+      "code": "Z07",
+      "title": "Lesson Z07 · Podcast Production",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z07-podcast.md"
+    },
+    {
+      "code": "Z08",
+      "title": "Lesson Z08 · Personal IP & Knowledge Monetization Content Matrix",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z08-personal-ip.md"
+    },
+    {
+      "code": "Z09",
+      "title": "Lesson Z09 · Reddit / Quora / Medium: Expert Q&A and Long-Form Content",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z09-zhihu.md"
+    },
+    {
+      "code": "Z10",
+      "title": "Lesson Z10 · SEO Content Production",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z10-seo-content.md"
+    },
+    {
+      "code": "Z11",
+      "title": "Lesson Z11 · E-Commerce Product Page Copywriting",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z11-ecommerce-detail.md"
+    },
+    {
+      "code": "Z12",
+      "title": "Lesson Z12 · Audience Segmentation & Product Analysis",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z12-audience-segmentation.md"
+    },
+    {
+      "code": "Z13",
+      "title": "Lesson Z13 · Live Commerce Scripts & Sales Talk",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z13-live-commerce.md"
+    },
+    {
+      "code": "Z14",
+      "title": "Lesson Z14 · Cross-Border E-Commerce Listings & Localization",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z14-cross-border.md"
+    },
+    {
+      "code": "Z15",
+      "title": "Lesson Z15 · Owned Audience Operations: Email, Community & CRM",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z15-private-domain.md"
+    },
+    {
+      "code": "Z16",
+      "title": "Lesson Z16 · Bulk Ad Copy Variants for Paid Campaigns",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z16-ad-creative.md"
+    },
+    {
+      "code": "Z17",
+      "title": "Lesson Z17 · Seasonal Campaign Planning",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z17-campaign-planning.md"
+    },
+    {
+      "code": "Z18",
+      "title": "Lesson Z18 · Brand Positioning & Voice Copy",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z18-brand-positioning.md"
+    },
+    {
+      "code": "Z19",
+      "title": "Lesson Z19 · PR Press Release Writing",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z19-pr-release.md"
+    },
+    {
+      "code": "Z20",
+      "title": "Lesson Z20 · User Research",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z20-user-research.md"
+    },
+    {
+      "code": "Z21",
+      "title": "Lesson Z21 · User Operations: Retention & Re-engagement",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z21-user-operation.md"
+    },
+    {
+      "code": "Z22",
+      "title": "Lesson Z22 · Growth Experiments: A/B Test Design",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z22-growth-experiment.md"
+    },
+    {
+      "code": "Z23",
+      "title": "Lesson Z23 · Competitor Analysis",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z23-competitor-analysis.md"
+    },
+    {
+      "code": "Z24",
+      "title": "Lesson Z24 · Industry Research: How to Find Reliable Data",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z24-industry-research.md"
+    },
+    {
+      "code": "Z25",
+      "title": "Lesson Z25 · Business Dashboard",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z25-dashboard.md"
+    },
+    {
+      "code": "Z26",
+      "title": "Lesson Z26 · Data Cleaning & Quality Inspection",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z26-data-cleaning.md"
+    },
+    {
+      "code": "Z27",
+      "title": "Lesson Z27 · Sales Data Analysis",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z27-sales-analysis.md"
+    },
+    {
+      "code": "Z28",
+      "title": "Lesson Z28 · Financial Transaction Reconciliation",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z28-finance-statement.md"
+    },
+    {
+      "code": "Z29",
+      "title": "Lesson Z29 · KPI Report Automation",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z29-kpi-report.md"
+    },
+    {
+      "code": "Z30",
+      "title": "Lesson Z30 · Survey Data Visualization",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z30-research-viz.md"
+    },
+    {
+      "code": "Z31",
+      "title": "Lesson Z31 · Sales Lead Management",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z31-sales-leads.md"
+    },
+    {
+      "code": "Z32",
+      "title": "Lesson Z32 · Outreach Email Sequences",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z32-cold-email.md"
+    },
+    {
+      "code": "Z33",
+      "title": "Lesson Z33 · CRM Data Cleaning & Tagging",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z33-crm-cleanup.md"
+    },
+    {
+      "code": "Z34",
+      "title": "Lesson Z34 · Customer Service FAQ Script Library",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z34-customer-faq.md"
+    },
+    {
+      "code": "Z35",
+      "title": "Lesson Z35 · Ticket Triage and Draft Replies",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z35-ticket-handling.md"
+    },
+    {
+      "code": "Z36",
+      "title": "Lesson Z36 · Writing and Optimizing Job Descriptions",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z36-jd-writing.md"
+    },
+    {
+      "code": "Z37",
+      "title": "Lesson Z37 · Resume Screening Assistant",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z37-resume-screening.md"
+    },
+    {
+      "code": "Z38",
+      "title": "Lesson Z38 · Interview Question Bank & Candidate Assessment Kit",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z38-interview-bank.md"
+    },
+    {
+      "code": "Z39",
+      "title": "Lesson Z39 · OKR Planning & Performance Reviews",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z39-okr-performance.md"
+    },
+    {
+      "code": "Z40",
+      "title": "Lesson Z40 · Employee Handbooks and Internal Notices",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z40-employee-handbook.md"
+    },
+    {
+      "code": "Z41",
+      "title": "Lesson Z41 · Contract Review Assistant",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z41-contract-review.md"
+    },
+    {
+      "code": "Z42",
+      "title": "Lesson Z42 · Compliance Check",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z42-compliance-check.md"
+    },
+    {
+      "code": "Z43",
+      "title": "Lesson Z43 · Privacy Policy Drafting",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z43-privacy-policy.md"
+    },
+    {
+      "code": "Z44",
+      "title": "Lesson Z44 · Legal Document Templates",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z44-legal-docs.md"
+    },
+    {
+      "code": "Z45",
+      "title": "Lesson Z45 · Curriculum & Lesson Plan Design",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z45-lesson-plan.md"
+    },
+    {
+      "code": "Z46",
+      "title": "Lesson Z46 · Quiz Design & Scoring Rubrics",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z46-quiz-design.md"
+    },
+    {
+      "code": "Z47",
+      "title": "Lesson Z47 · Enrollment & Admissions Copywriting",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z47-admissions-copy.md"
+    },
+    {
+      "code": "Z48",
+      "title": "Lesson Z48 · Material Distillation",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z48-material-distillation.md"
+    },
+    {
+      "code": "Z49",
+      "title": "Lesson Z49 · Restaurant & Retail Content",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z49-restaurant-shop.md"
+    },
+    {
+      "code": "Z50",
+      "title": "Lesson Z50 · Real Estate & Travel Copywriting",
+      "faculty": "professions",
+      "lang": "en",
+      "path": "agent-school/courses/en/professions/Z50-realestate-travel.md"
+    },
+    {
+      "code": "T01",
+      "title": "Lesson T01 · Managing PRs and Issues with gh (GitHub CLI)",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T01-gh-cli.md"
+    },
+    {
+      "code": "T02",
+      "title": "Lesson T02 · Advanced git — branch / rebase / cherry-pick / stash rescue",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T02-git-advanced.md"
+    },
+    {
+      "code": "T03",
+      "title": "Lesson T03 · ripgrep (rg) — Second-level search across giant codebases",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T03-ripgrep.md"
+    },
+    {
+      "code": "T04",
+      "title": "Lesson T04 · jq — Slice JSON down to exactly the fields you need",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T04-jq.md"
+    },
+    {
+      "code": "T05",
+      "title": "Lesson T05 · Playwright Browser Automation",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T05-playwright.md"
+    },
+    {
+      "code": "T06",
+      "title": "Lesson T06 · Scrapling — Extracting Data from Public Web Pages",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T06-scrapling.md"
+    },
+    {
+      "code": "T07",
+      "title": "Lesson T07 · requests / httpx — Calling Public APIs to Fetch Data",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T07-requests-httpx.md"
+    },
+    {
+      "code": "T08",
+      "title": "Lesson T08 · BeautifulSoup — Parsing Static HTML to Extract Key Data",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T08-beautifulsoup.md"
+    },
+    {
+      "code": "T09",
+      "title": "Lesson T09 · Cleaning Messy Spreadsheets with pandas",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T09-pandas.md"
+    },
+    {
+      "code": "T10",
+      "title": "Lesson T10 · DuckDB: Query a Giant CSV with SQL in Seconds",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T10-duckdb.md"
+    },
+    {
+      "code": "T11",
+      "title": "Lesson T11 · csvkit: Slice, Stack, Join, and Convert CSVs from the Command Line",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T11-csvkit.md"
+    },
+    {
+      "code": "T12",
+      "title": "Lesson T12 · openpyxl: Reading and Writing Real Excel Files with Formatting",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T12-openpyxl.md"
+    },
+    {
+      "code": "T13",
+      "title": "Lesson T13 · python-docx: Batch-Generate Word Documents",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T13-python-docx.md"
+    },
+    {
+      "code": "T14",
+      "title": "Lesson T14 · python-pptx: Automatically Lay Out Content as a PowerPoint",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T14-python-pptx.md"
+    },
+    {
+      "code": "T15",
+      "title": "Lesson T15 · matplotlib: Turn Data into a Readable Chart",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T15-matplotlib.md"
+    },
+    {
+      "code": "T16",
+      "title": "Lesson T16 · plotly: Interactive Charts and Dashboards",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T16-plotly.md"
+    },
+    {
+      "code": "T17",
+      "title": "Lesson T17 · ffmpeg: Transcoding, Trimming, and Audio Extraction (Command Line)",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T17-ffmpeg.md"
+    },
+    {
+      "code": "T18",
+      "title": "Lesson T18 · yt-dlp: Downloading Public Audio and Video",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T18-yt-dlp.md"
+    },
+    {
+      "code": "T19",
+      "title": "Lesson T19 · Whisper: Speech-to-Text and Subtitles",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T19-whisper.md"
+    },
+    {
+      "code": "T20",
+      "title": "Lesson T20 · Pillow: Batch Image Processing",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T20-pillow.md"
+    },
+    {
+      "code": "T21",
+      "title": "Lesson T21 · ImageMagick: Batch Image Processing from the Command Line",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T21-imagemagick.md"
+    },
+    {
+      "code": "T22",
+      "title": "Lesson T22 · Tesseract OCR: Extracting Text from Images",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T22-tesseract.md"
+    },
+    {
+      "code": "T23",
+      "title": "Lesson T23 · pdfplumber: Extracting Text and Tables from PDFs",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T23-pdfplumber.md"
+    },
+    {
+      "code": "T24",
+      "title": "Lesson T24 · qpdf: Split, Merge, Rotate, and Decrypt PDFs",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T24-qpdf.md"
+    },
+    {
+      "code": "T25",
+      "title": "Lesson T25 · pandoc: The Universal Document Converter",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T25-pandoc.md"
+    },
+    {
+      "code": "T26",
+      "title": "Lesson T26 · exiftool: Reading and Writing File Metadata",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T26-exiftool.md"
+    },
+    {
+      "code": "T27",
+      "title": "Lesson T27 · SQLite: Add a Local Database to Your Small Tool",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T27-sqlite.md"
+    },
+    {
+      "code": "T28",
+      "title": "Lesson T28 · curl + REST: Debugging an API by Hand",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T28-curl-rest.md"
+    },
+    {
+      "code": "T29",
+      "title": "Lesson T29 · cron: Running Tasks on a Schedule",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T29-cron.md"
+    },
+    {
+      "code": "T30",
+      "title": "Lesson T30 · rsync: Reliable File Sync and Backup",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T30-rsync.md"
+    },
+    {
+      "code": "T31",
+      "title": "Lesson T31 · Docker: Packaging Your Environment",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T31-docker.md"
+    },
+    {
+      "code": "T32",
+      "title": "Lesson T32 · Prettier + ESLint: Auto-formatting and Linting",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T32-prettier-eslint.md"
+    },
+    {
+      "code": "T33",
+      "title": "Lesson T33 · markdownlint: Batch-Checking Markdown Document Standards",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T33-markdownlint.md"
+    },
+    {
+      "code": "T34",
+      "title": "Lesson T34 · GeoPandas: Working with Geographic Data",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T34-geopandas.md"
+    },
+    {
+      "code": "T35",
+      "title": "Lesson T35 · scrapling-fetch-mcp: Plugging Anti-Scraping Web Fetching into Claude",
+      "faculty": "tools",
+      "lang": "en",
+      "path": "agent-school/courses/en/tools/T35-scrapling-mcp.md"
+    },
+    {
+      "code": "A01",
+      "title": "第 A01 课 · Node-RED:用\"连线\"画出你的第一条自动化流水线",
+      "faculty": "automation",
+      "lang": "zh",
+      "path": "agent-school/courses/automation/A01-node-red.md"
+    },
+    {
+      "code": "A02",
+      "title": "第 A02 课 · Automatisch:零基础做出第一个\"A发生就做B\"自动化",
+      "faculty": "automation",
+      "lang": "zh",
+      "path": "agent-school/courses/automation/A02-automatisch.md"
+    },
+    {
+      "code": "A03",
+      "title": "第 A03 课 · Activepieces:MIT 开源 + 280 个工具直接变 MCP,让 Claude 调用",
+      "faculty": "automation",
+      "lang": "zh",
+      "path": "agent-school/courses/automation/A03-activepieces.md"
+    },
+    {
+      "code": "A04",
+      "title": "第 A04 课 · n8n + n8n-mcp:让 Claude 用人话帮你搭自动化工作流",
+      "faculty": "automation",
+      "lang": "zh",
+      "path": "agent-school/courses/automation/A04-n8n.md"
+    },
+    {
+      "code": "A05",
+      "title": "第 A05 课 · Dify:把\"提问→检索→AI回答→触发动作\"串成国产友好的 AI 流水线",
+      "faculty": "automation",
+      "lang": "zh",
+      "path": "agent-school/courses/automation/A05-dify.md"
+    },
+    {
+      "code": "A06",
+      "title": "第 A06 课 · Windmill:把一段 Python/TypeScript 脚本变成可定时/Webhook 触发的服务",
+      "faculty": "automation",
+      "lang": "zh",
+      "path": "agent-school/courses/automation/A06-windmill.md"
+    },
+    {
+      "code": "B01",
+      "title": "第 B01 课 · bolt.diy:一句话造一个全栈应用",
+      "faculty": "build",
+      "lang": "zh",
+      "path": "agent-school/courses/build/B01-bolt-diy.md"
+    },
+    {
+      "code": "B02",
+      "title": "第 B02 课 · Dyad:本地隐私版 AI 建站,代码 100% 归你",
+      "faculty": "build",
+      "lang": "zh",
+      "path": "agent-school/courses/build/B02-dyad.md"
+    },
+    {
+      "code": "B03",
+      "title": "第 B03 课 · ToolJet:无代码搭业务后台,小店也能有自己的管理系统",
+      "faculty": "build",
+      "lang": "zh",
+      "path": "agent-school/courses/build/B03-tooljet.md"
+    },
+    {
+      "code": "B04",
+      "title": "第 B04 课 · NocoDB:把数据库变成 Airtable,国内可用的无代码数据管理",
+      "faculty": "build",
+      "lang": "zh",
+      "path": "agent-school/courses/build/B04-nocodb.md"
+    },
+    {
+      "code": "B05",
+      "title": "第 B05 课 · Plane:开源项目管理,自建团队看板跑 Sprint",
+      "faculty": "build",
+      "lang": "zh",
+      "path": "agent-school/courses/build/B05-plane.md"
+    },
+    {
+      "code": "B06",
+      "title": "第 B06 课 · Product Manager Skills:让 AI 当你的产品经理",
+      "faculty": "build",
+      "lang": "zh",
+      "path": "agent-school/courses/build/B06-pm-skills.md"
+    },
+    {
+      "code": "B07",
+      "title": "第 B07 课 · PRD Creator:把一个想法变成一份专业产品需求文档",
+      "faculty": "build",
+      "lang": "zh",
+      "path": "agent-school/courses/build/B07-prd-creator.md"
+    },
+    {
+      "code": "D01",
+      "title": "第 D01 课 · screenshot-to-code:把截图变网页",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D01-screenshot-to-code.md"
+    },
+    {
+      "code": "D02",
+      "title": "第 D02 课 · OpenUI:一句话造组件,所见即所得",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D02-openui.md"
+    },
+    {
+      "code": "D03",
+      "title": "第 D03 课 · make-real-starter:白板手绘→真页面",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D03-make-real.md"
+    },
+    {
+      "code": "D04",
+      "title": "第 D04 课 · ComfyUI:本地出图自由",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D04-comfyui.md"
+    },
+    {
+      "code": "D05",
+      "title": "第 D05 课 · Brand Artifacts:给作品套上统一品牌脸",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D05-brand-artifacts.md"
+    },
+    {
+      "code": "D06",
+      "title": "第 D06 课 · Figma MCP:让 agent 读懂你的设计稿",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D06-figma-mcp.md"
+    },
+    {
+      "code": "D07",
+      "title": "第 D07 课 · shadcn/ui:拥有自己的设计系统",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D07-shadcn-ui.md"
+    },
+    {
+      "code": "D08",
+      "title": "第 D08 课 · 图标用对,质感翻倍",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D08-icons.md"
+    },
+    {
+      "code": "D09",
+      "title": "第 D09 课 · 一句话出小红书图文+公众号封面",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D09-social-card.md"
+    },
+    {
+      "code": "D10",
+      "title": "第 D10 课 · 代码做 PPT",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D10-slides-as-code.md"
+    },
+    {
+      "code": "D11",
+      "title": "第 D11 课 · 让 Claude 自己会画图(进阶)",
+      "faculty": "design",
+      "lang": "zh",
+      "path": "agent-school/courses/design/D11-image-mcp.md"
+    },
+    {
+      "code": "01",
+      "title": "第一课 · 先探索,再动手",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/01-explore-first.md"
+    },
+    {
+      "code": "02",
+      "title": "第二课 · 管好你的工作记忆",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/02-memory.md"
+    },
+    {
+      "code": "03",
+      "title": "第三课 · 先自检,再交作业",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/03-verify.md"
+    },
+    {
+      "code": "04",
+      "title": "第四课 · 给自己装备技能",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/04-arsenal.md"
+    },
+    {
+      "code": "05",
+      "title": "第五课 · 用户电脑安全边界",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/05-local-safety.md"
+    },
+    {
+      "code": "06",
+      "title": "第六课 · 证据交付",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/06-evidence-delivery.md"
+    },
+    {
+      "code": "07",
+      "title": "第七课 · 给用户带回一个业务成果",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/07-business-task.md"
+    },
+    {
+      "code": "J08",
+      "title": "第 J08 课 · 任务拆解",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/J08-task-decomposition.md"
+    },
+    {
+      "code": "J09",
+      "title": "第 J09 课 · 反向采访需求:四类问题 + 七字段 SPEC",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/J09-reverse-interview.md"
+    },
+    {
+      "code": "J10",
+      "title": "第 J10 课 · 计划模式",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/J10-plan-mode.md"
+    },
+    {
+      "code": "J11",
+      "title": "第 J11 课 · 纠错与重开纪律",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/J11-restart-discipline.md"
+    },
+    {
+      "code": "J12",
+      "title": "第 J12 课 · 失败诚实上报",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/J12-honest-reporting.md"
+    },
+    {
+      "code": "J13",
+      "title": "第 J13 课 · 复盘与回归",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/J13-review-regression.md"
+    },
+    {
+      "code": "J14",
+      "title": "第 J14 课 · 数据最小化与隐私",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/J14-data-minimization.md"
+    },
+    {
+      "code": "J15",
+      "title": "第 J15 课 · 进度与时间沟通",
+      "faculty": "foundations",
+      "lang": "zh",
+      "path": "agent-school/courses/foundations/J15-progress-comms.md"
+    },
+    {
+      "code": "M01",
+      "title": "第 M01 课 · auto-editor:让 AI 自动剪掉停顿和废话",
+      "faculty": "media",
+      "lang": "zh",
+      "path": "agent-school/courses/media/M01-auto-editor.md"
+    },
+    {
+      "code": "M02",
+      "title": "第 M02 课 · faster-whisper:自动生成带时间戳字幕",
+      "faculty": "media",
+      "lang": "zh",
+      "path": "agent-school/courses/media/M02-faster-whisper.md"
+    },
+    {
+      "code": "M03",
+      "title": "第 M03 课 · edge-tts:零成本一键生成中文旁白配音",
+      "faculty": "media",
+      "lang": "zh",
+      "path": "agent-school/courses/media/M03-edge-tts.md"
+    },
+    {
+      "code": "M04",
+      "title": "第 M04 课 · GPT-SoVITS:用 1 分钟样本克隆声音批量配音",
+      "faculty": "media",
+      "lang": "zh",
+      "path": "agent-school/courses/media/M04-gpt-sovits.md"
+    },
+    {
+      "code": "M05",
+      "title": "第 M05 课 · YuE:AI 作曲——按主题生成一段 BGM",
+      "faculty": "media",
+      "lang": "zh",
+      "path": "agent-school/courses/media/M05-ai-music.md"
+    },
+    {
+      "code": "M06",
+      "title": "第 M06 课 · DeepFilterNet:嘈杂录音一键降噪到广播级",
+      "faculty": "media",
+      "lang": "zh",
+      "path": "agent-school/courses/media/M06-deepfilternet.md"
+    },
+    {
+      "code": "M07",
+      "title": "第 M07 课 · MoneyPrinterTurbo:输入选题,全自动出短视频成片",
+      "faculty": "media",
+      "lang": "zh",
+      "path": "agent-school/courses/media/M07-moneyprinter.md"
+    },
+    {
+      "code": "M08",
+      "title": "第 M08 课 · videocut-skills:让 Claude 当剪辑师,端到端剪播客",
+      "faculty": "media",
+      "lang": "zh",
+      "path": "agent-school/courses/media/M08-videocut-skills.md"
+    },
+    {
+      "code": "Z01",
+      "title": "第 Z01 课 · 公众号运营",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z01-wechat-official.md"
+    },
+    {
+      "code": "Z02",
+      "title": "第 Z02 课 · 小红书运营",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z02-xiaohongshu.md"
+    },
+    {
+      "code": "Z03",
+      "title": "第 Z03 课 · 抖音脚本",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z03-douyin-script.md"
+    },
+    {
+      "code": "Z04",
+      "title": "第 Z04 课 · B 站视频内容",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z04-bilibili.md"
+    },
+    {
+      "code": "Z05",
+      "title": "第 Z05 课 · 视频号内容",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z05-shipinhao.md"
+    },
+    {
+      "code": "Z06",
+      "title": "第 Z06 课 · 一稿多发:一篇内容改写成各平台原生版",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z06-newsletter.md"
+    },
+    {
+      "code": "Z07",
+      "title": "第 Z07 课 · 播客运营",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z07-podcast.md"
+    },
+    {
+      "code": "Z08",
+      "title": "第 Z08 课 · 个人 IP 与知识付费内容矩阵",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z08-personal-ip.md"
+    },
+    {
+      "code": "Z09",
+      "title": "第 Z09 课 · 知乎运营",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z09-zhihu.md"
+    },
+    {
+      "code": "Z10",
+      "title": "第 Z10 课 · SEO 内容生产",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z10-seo-content.md"
+    },
+    {
+      "code": "Z11",
+      "title": "第 Z11 课 · 电商详情页文案",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z11-ecommerce-detail.md"
+    },
+    {
+      "code": "Z12",
+      "title": "第 Z12 课 · 人群分层与选品分析",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z12-audience-segmentation.md"
+    },
+    {
+      "code": "Z13",
+      "title": "第 Z13 课 · 直播带货脚本与话术",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z13-live-commerce.md"
+    },
+    {
+      "code": "Z14",
+      "title": "第 Z14 课 · 跨境电商 Listing 与本地化",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z14-cross-border.md"
+    },
+    {
+      "code": "Z15",
+      "title": "第 Z15 课 · 私域运营 SOP 与话术",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z15-private-domain.md"
+    },
+    {
+      "code": "Z16",
+      "title": "第 Z16 课 · 投放素材批量广告文案变体",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z16-ad-creative.md"
+    },
+    {
+      "code": "Z17",
+      "title": "第 Z17 课 · 节点营销活动策划",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z17-campaign-planning.md"
+    },
+    {
+      "code": "Z18",
+      "title": "第 Z18 课 · 品牌定位与口吻文案",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z18-brand-positioning.md"
+    },
+    {
+      "code": "Z19",
+      "title": "第 Z19 课 · PR 新闻稿写作",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z19-pr-release.md"
+    },
+    {
+      "code": "Z20",
+      "title": "第 Z20 课 · 用户研究",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z20-user-research.md"
+    },
+    {
+      "code": "Z21",
+      "title": "第 Z21 课 · 用户运营:留存与召回",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z21-user-operation.md"
+    },
+    {
+      "code": "Z22",
+      "title": "第 Z22 课 · 增长实验:A/B 测试方案设计",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z22-growth-experiment.md"
+    },
+    {
+      "code": "Z23",
+      "title": "第 Z23 课 · 竞品分析",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z23-competitor-analysis.md"
+    },
+    {
+      "code": "Z24",
+      "title": "第 Z24 课 · 行业研究:怎么找可靠数据",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z24-industry-research.md"
+    },
+    {
+      "code": "Z25",
+      "title": "第 Z25 课 · 业务看板",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z25-dashboard.md"
+    },
+    {
+      "code": "Z26",
+      "title": "第 Z26 课 · 数据清洗与质检",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z26-data-cleaning.md"
+    },
+    {
+      "code": "Z27",
+      "title": "第 Z27 课 · 销售数据分析",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z27-sales-analysis.md"
+    },
+    {
+      "code": "Z28",
+      "title": "第 Z28 课 · 财务流水整理",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z28-finance-statement.md"
+    },
+    {
+      "code": "Z29",
+      "title": "第 Z29 课 · KPI 报表自动化",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z29-kpi-report.md"
+    },
+    {
+      "code": "Z30",
+      "title": "第 Z30 课 · 调研数据可视化",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z30-research-viz.md"
+    },
+    {
+      "code": "Z31",
+      "title": "第 Z31 课 · 销售线索管理",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z31-sales-leads.md"
+    },
+    {
+      "code": "Z32",
+      "title": "第 Z32 课 · 外联邮件序列",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z32-cold-email.md"
+    },
+    {
+      "code": "Z33",
+      "title": "第 Z33 课 · CRM 数据清洗与打标",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z33-crm-cleanup.md"
+    },
+    {
+      "code": "Z34",
+      "title": "第 Z34 课 · 客服 FAQ 话术库",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z34-customer-faq.md"
+    },
+    {
+      "code": "Z35",
+      "title": "第 Z35 课 · 工单分类与回复",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z35-ticket-handling.md"
+    },
+    {
+      "code": "Z36",
+      "title": "第 Z36 课 · JD 撰写与优化",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z36-jd-writing.md"
+    },
+    {
+      "code": "Z37",
+      "title": "第 Z37 课 · 简历筛选助手",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z37-resume-screening.md"
+    },
+    {
+      "code": "Z38",
+      "title": "第 Z38 课 · 面试题库与评估表",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z38-interview-bank.md"
+    },
+    {
+      "code": "Z39",
+      "title": "第 Z39 课 · 绩效与 OKR 梳理",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z39-okr-performance.md"
+    },
+    {
+      "code": "Z40",
+      "title": "第 Z40 课 · 员工手册与内部通知",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z40-employee-handbook.md"
+    },
+    {
+      "code": "Z41",
+      "title": "第 Z41 课 · 合同审查助手",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z41-contract-review.md"
+    },
+    {
+      "code": "Z42",
+      "title": "第 Z42 课 · 合规检查",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z42-compliance-check.md"
+    },
+    {
+      "code": "Z43",
+      "title": "第 Z43 课 · 隐私政策起草",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z43-privacy-policy.md"
+    },
+    {
+      "code": "Z44",
+      "title": "第 Z44 课 · 法律文书模板化",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z44-legal-docs.md"
+    },
+    {
+      "code": "Z45",
+      "title": "第 Z45 课 · 课程教案设计",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z45-lesson-plan.md"
+    },
+    {
+      "code": "Z46",
+      "title": "第 Z46 课 · 测验命题与评分量规",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z46-quiz-design.md"
+    },
+    {
+      "code": "Z47",
+      "title": "第 Z47 课 · 招生文案",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z47-admissions-copy.md"
+    },
+    {
+      "code": "Z48",
+      "title": "第 Z48 课 · 资料提炼",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z48-material-distillation.md"
+    },
+    {
+      "code": "Z49",
+      "title": "第 Z49 课 · 餐饮门店",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z49-restaurant-shop.md"
+    },
+    {
+      "code": "Z50",
+      "title": "第 Z50 课 · 房产/旅游文案",
+      "faculty": "professions",
+      "lang": "zh",
+      "path": "agent-school/courses/professions/Z50-realestate-travel.md"
+    },
+    {
+      "code": "T01",
+      "title": "第 T01 课 · gh(GitHub CLI)命令行管 PR 与 Issue",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T01-gh-cli.md"
+    },
+    {
+      "code": "T02",
+      "title": "第 T02 课 · git 进阶——分支/rebase/cherry-pick/stash 救场",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T02-git-advanced.md"
+    },
+    {
+      "code": "T03",
+      "title": "第 T03 课 · ripgrep(rg)大仓库秒级搜索",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T03-ripgrep.md"
+    },
+    {
+      "code": "T04",
+      "title": "第 T04 课 · jq 把 JSON 切成你要的字段",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T04-jq.md"
+    },
+    {
+      "code": "T05",
+      "title": "第 T05 课 · Playwright 浏览器操作",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T05-playwright.md"
+    },
+    {
+      "code": "T06",
+      "title": "第 T06 课 · Scrapling 扒公开网页数据",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T06-scrapling.md"
+    },
+    {
+      "code": "T07",
+      "title": "第 T07 课 · requests/httpx 调公开 API 取数据",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T07-requests-httpx.md"
+    },
+    {
+      "code": "T08",
+      "title": "第 T08 课 · BeautifulSoup 解析静态网页提取要点",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T08-beautifulsoup.md"
+    },
+    {
+      "code": "T09",
+      "title": "第 T09 课 · pandas 把乱表格清洗成干净数据",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T09-pandas.md"
+    },
+    {
+      "code": "T10",
+      "title": "第 T10 课 · DuckDB 用 SQL 秒查一个大 CSV",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T10-duckdb.md"
+    },
+    {
+      "code": "T11",
+      "title": "第 T11 课 · csvkit 命令行切表/合表/转格式",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T11-csvkit.md"
+    },
+    {
+      "code": "T12",
+      "title": "第 T12 课 · openpyxl 读写带格式的真实 Excel",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T12-openpyxl.md"
+    },
+    {
+      "code": "T13",
+      "title": "第 T13 课 · python-docx 批量生成 Word 文档",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T13-python-docx.md"
+    },
+    {
+      "code": "T14",
+      "title": "第 T14 课 · python-pptx 把内容自动排成 PPT",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T14-python-pptx.md"
+    },
+    {
+      "code": "T15",
+      "title": "第 T15 课 · matplotlib 把数据画成一张能看的图",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T15-matplotlib.md"
+    },
+    {
+      "code": "T16",
+      "title": "第 T16 课 · plotly 做可交互的图表/看板",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T16-plotly.md"
+    },
+    {
+      "code": "T17",
+      "title": "第 T17 课 · ffmpeg 转码/剪切/提取音轨(命令行)",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T17-ffmpeg.md"
+    },
+    {
+      "code": "T18",
+      "title": "第 T18 课 · yt-dlp 下载公开音视频",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T18-yt-dlp.md"
+    },
+    {
+      "code": "T19",
+      "title": "第 T19 课 · Whisper 语音转文字/字幕",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T19-whisper.md"
+    },
+    {
+      "code": "T20",
+      "title": "第 T20 课 · Pillow 批量图片处理",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T20-pillow.md"
+    },
+    {
+      "code": "T21",
+      "title": "第 T21 课 · ImageMagick 命令行批处理图片",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T21-imagemagick.md"
+    },
+    {
+      "code": "T22",
+      "title": "第 T22 课 · Tesseract OCR 从图片抠出文字",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T22-tesseract.md"
+    },
+    {
+      "code": "T23",
+      "title": "第 T23 课 · pdfplumber 从 PDF 抠文字和表格",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T23-pdfplumber.md"
+    },
+    {
+      "code": "T24",
+      "title": "第 T24 课 · qpdf 拆分/合并/旋转/解密 PDF",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T24-qpdf.md"
+    },
+    {
+      "code": "T25",
+      "title": "第 T25 课 · pandoc 文档万能转换器",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T25-pandoc.md"
+    },
+    {
+      "code": "T26",
+      "title": "第 T26 课 · exiftool 读写文件元数据",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T26-exiftool.md"
+    },
+    {
+      "code": "T27",
+      "title": "第 T27 课 · SQLite 给小工具配本地数据库",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T27-sqlite.md"
+    },
+    {
+      "code": "T28",
+      "title": "第 T28 课 · curl + REST 手搓一次 API 调试",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T28-curl-rest.md"
+    },
+    {
+      "code": "T29",
+      "title": "第 T29 课 · cron 让任务按时自动跑",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T29-cron.md"
+    },
+    {
+      "code": "T30",
+      "title": "第 T30 课 · rsync 可靠地同步和备份文件",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T30-rsync.md"
+    },
+    {
+      "code": "T31",
+      "title": "第 T31 课 · Docker 环境打包",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T31-docker.md"
+    },
+    {
+      "code": "T32",
+      "title": "第 T32 课 · Prettier + ESLint 自动格式化与查错",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T32-prettier-eslint.md"
+    },
+    {
+      "code": "T33",
+      "title": "第 T33 课 · markdownlint 批量校验 Markdown 文档规范",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T33-markdownlint.md"
+    },
+    {
+      "code": "T34",
+      "title": "第 T34 课 · GeoPandas 地理数据处理",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T34-geopandas.md"
+    },
+    {
+      "code": "T35",
+      "title": "第 T35 课 · scrapling-fetch-mcp:把反爬虫网页抓取接进 Claude",
+      "faculty": "tools",
+      "lang": "zh",
+      "path": "agent-school/courses/tools/T35-scrapling-mcp.md"
+    }
+  ]
+}

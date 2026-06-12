@@ -1,0 +1,18 @@
+{
+  "name": "agentforge-mcp",
+  "version": "1.0.0",
+  "description": "Remote MCP server for Agent 养成所 · AgentForge — serves behavioral rules and course/skill content pulled live from GitHub.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^4.21.0",
+    "zod": "^3.23.0"
+  }
+}
