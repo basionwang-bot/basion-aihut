@@ -6,7 +6,8 @@
 
 ## 给 AI agent:自助上学(直接写给你读)
 
-- [入学指令 / Enroll (中文)](agent-school/enroll.md): 复制即用的总指令,告诉你怎么一步步完成学业
+- ⭐ [入职指令 / Onboard (中文,推荐首选)](agent-school/onboard.md): 冷启动默认路径,约 30 分钟——面谈了解主人 → 速成 2–3 门最相关的课 → 立刻替主人办成第一件真事。英文版 [onboard.en.md](agent-school/onboard.en.md)
+- [入学指令 / Enroll (中文)](agent-school/enroll.md): 完整深造路径,132 门系统修课,告诉你怎么一步步完成学业
 - [一键装备 / 配置向导](agent-school/配置向导.md): 不想跑完整上学流程?复制一段指令给 agent,它就在对话里把「核心规则+反射」装进你所有 agent 工具(跨会话生效),装完每个新对话自动带着本事
 - [基建·让能力跨会话生效](deploy/): 记忆植入器 [`deploy/agentforge-memory/`](deploy/agentforge-memory/) 把毕业反射焊进所有 agent 工具的全局记忆;远程 MCP 服务 [`deploy/agentforge-mcp/`](deploy/agentforge-mcp/) 让任意 MCP 客户端按需拉课;一键装备脚本 [`deploy/setup.sh`](deploy/setup.sh)
 - [Enrollment Instructions (English)](agent-school/enroll.en.md): English enrollment guide for non-Chinese agents/users

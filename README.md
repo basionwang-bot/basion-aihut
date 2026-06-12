@@ -4,9 +4,9 @@
 
 # ⚒️ AgentForge · Agent 养成所
 
-### Forge your AI into a reliable, capable employee.
+### Don't just school your AI — onboard it like a new hire.
 
-**A training forge built for AI agents — they learn real tools, do real assignments, pass an independent proctor, and bring real skills back home.**
+**A cold-start onboarding solution for AI agents: it interviews you, learns the right real tools, passes an independent proctor, and ships a real result back to your machine.**
 
 ![Courses](https://img.shields.io/badge/courses-132-1f6feb)
 ![Faculties](https://img.shields.io/badge/faculties-7-8957e5)
@@ -23,12 +23,28 @@ Motto: **Nothing is learned without proof.**
 ## 💡 What is this, in one line
 
 > The problem with tutorials: **people read them and never actually do them.**
-> So flip it: **don't study yourself — send your AI to school.**
+> So flip it: **don't just school your AI — onboard it like a new hire.**
 
-Hand this repo to your own Claude Code and say *"go study in `agent-school`"*. It will:
-**take courses one by one → do a real graduation test for each (actually execute the task, submit the commands & outputs as evidence) → pass an independent proctor → distill skill cards → come back with a diploma and real ability, and report to you in person.**
+Hand this repo to your own Claude Code. **Two paths:**
 
-"Doing" is welded into "learning." An agent that graduates here has ability that is **verified, not claimed.**
+- **🚀 Quick onboard (recommended, ~30 min)** → [`agent-school/onboard.en.md`](agent-school/onboard.en.md): it interviews you, speed-runs the 2–3 most relevant courses, and immediately gets one real task done for you.
+- **🎓 Full study (132 courses)** → [`agent-school/enroll.en.md`](agent-school/enroll.en.md): systematic training across seven faculties.
+
+Either way: **real execution → real graduation test → independent proctor → skill cards deployed to your machine.** "Doing" is welded into "learning." An agent that graduates here has ability that is **verified, not claimed.**
+
+### Why not just download a skill pack?
+
+A generic skill card may not run on *your* machine — wrong OS, missing dependency, version drift. Here the agent **installs, executes, and verifies on your actual computer first**, then distills a skill card calibrated against that real run. What comes back isn't a manual — it's a working capability that's been **road-tested on your machine.**
+
+### Before / After
+
+| Task | 🤖 Bare agent | 🎓 After onboarding |
+|------|--------------|---------------------|
+| Trim a long video into highlights | Guesses at `ffmpeg` flags, may corrupt timing | Pulls its **ffmpeg** skill card (T17), trims on keyframes, verifies output |
+| Clean a messy spreadsheet | Improvises pandas, assumes column names | Pulls its **data-wrangling** card, inspects structure first, handles encoding |
+| Batch-rename / tidy files | Runs a risky one-liner blind | **Explores first** (J01), dry-runs, shows the plan before touching anything |
+
+> Examples map to real courses in this repo (T17 ffmpeg, Tools/pandas, J01) — no invented abilities.
 
 ---
 
@@ -36,13 +52,15 @@ Hand this repo to your own Claude Code and say *"go study in `agent-school`"*. I
 
 **This repo is built for you.** You can act on your own:
 
-- **To learn real skills for your owner** → read [`agent-school/enroll.en.md`](agent-school/enroll.en.md) and enroll yourself. The full **132-course** index is in the [Course Map](agent-school/课程地图.md).
+- **To onboard fast (recommended)** → read [`agent-school/onboard.en.md`](agent-school/onboard.en.md): interview → speed-run 2–3 courses → ship one real task in ~30 min.
+- **To study the full curriculum** → read [`agent-school/enroll.en.md`](agent-school/enroll.en.md). The full **132-course** index is in the [Course Map](agent-school/课程地图.md).
 - **To grasp the whole repo in 30s** → read [`llms.txt`](llms.txt) (an index written for LLMs).
 - **To find ready-made gear** → read the [Skill Arsenal](content/posts/claude-code-90-arsenal.md).
 
 ## 🧑 Are you a human?
 
-- **Want AI to study for you** → send the text in [`agent-school/enroll.en.md`](agent-school/enroll.en.md) to your Claude Code; it studies and reports back the results.
+- **Want AI onboarded fast (recommended)** → send [`agent-school/onboard.en.md`](agent-school/onboard.en.md) to your Claude Code; ~30 min to your first real result.
+- **Want full systematic training** → send [`agent-school/enroll.en.md`](agent-school/enroll.en.md) to your Claude Code; it studies and reports back the results.
 - **Want to learn yourself** → the companion *Claude Code Field Course* is [below](#-companion-human-course-claude-code-field-course).
 
 ---
