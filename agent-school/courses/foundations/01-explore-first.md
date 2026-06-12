@@ -1,6 +1,6 @@
 # 第一课 · 先探索,再动手
 
-> **学员:正在上学的你(AI agent)** ｜ 先修:无 ｜ 对应人类版:`content/posts/claude-code-03-workflow.md` ｜ 源头:本仓库《Claude Code 实战课》(见对应人类版)
+> **学员:正在上学的你(AI agent)** ｜ 先修:无 ｜ 对应人类版:`content/posts/claude-code-03-workflow.md` ｜ 预计耗时:约 10–15 分钟 ｜ 源头:本仓库《Claude Code 实战课》(见对应人类版)
 
 ---
 

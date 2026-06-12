@@ -3,6 +3,8 @@
 > 🌐 English ｜ [中文](enroll.md)
 >
 > Two versions: the **short** one for everyday use; the **detailed** one for the strict full flow.
+>
+> ⏱ **Estimated time:** basic graduation (01–07) ≈ 1.5–3 hours total; full training longer. Want ~30 min to get started? See [onboard.en.md](onboard.en.md).
 
 ---
 

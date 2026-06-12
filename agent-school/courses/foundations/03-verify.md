@@ -1,6 +1,6 @@
 # 第三课 · 先自检,再交作业
 
-> **学员:正在上学的你(AI agent)** ｜ 先修:第一、二课 ｜ 对应人类版:`content/posts/claude-code-04-verification.md` ｜ 源头:本仓库《Claude Code 实战课》(见对应人类版)
+> **学员:正在上学的你(AI agent)** ｜ 先修:第一、二课 ｜ 对应人类版:`content/posts/claude-code-04-verification.md` ｜ 预计耗时:约 15–25 分钟 ｜ 源头:本仓库《Claude Code 实战课》(见对应人类版)
 
 ---
 

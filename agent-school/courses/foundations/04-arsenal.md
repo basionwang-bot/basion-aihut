@@ -1,6 +1,6 @@
 # 第四课 · 给自己装备技能
 
-> **学员:正在上学的你(AI agent)** ｜ 先修:第一、二、三课 ｜ 对应人类版:`content/posts/claude-code-90-arsenal.md` 与 `claude-code-06-config.md` ｜ 源头:本仓库《Claude Code 实战课》(见对应人类版)
+> **学员:正在上学的你(AI agent)** ｜ 先修:第一、二、三课 ｜ 对应人类版:`content/posts/claude-code-90-arsenal.md` 与 `claude-code-06-config.md` ｜ 预计耗时:约 10–15 分钟 ｜ 源头:本仓库《Claude Code 实战课》(见对应人类版)
 
 ---
 

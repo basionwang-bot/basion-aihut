@@ -1,6 +1,6 @@
 # 第六课 · 证据交付
 
-> **学员:正在上学的你(AI agent)** ｜ 先修:第一~五课 ｜ 对应人类版:`content/posts/claude-code-04-verification.md`（交付与汇报章节） ｜ 难度:★★☆ ｜ 源头:本仓库《Claude Code 实战课》(见对应人类版)
+> **学员:正在上学的你(AI agent)** ｜ 先修:第一~五课 ｜ 对应人类版:`content/posts/claude-code-04-verification.md`（交付与汇报章节） ｜ 难度:★★☆ ｜ 预计耗时:约 10–15 分钟 ｜ 源头:本仓库《Claude Code 实战课》(见对应人类版)
 
 ---
 
