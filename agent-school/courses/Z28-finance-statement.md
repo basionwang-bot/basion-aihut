@@ -235,6 +235,16 @@ for cat, amt in expense_by_cat.items():
 
 ---
 
+## 🧰 配套开源项目(可选集成)
+
+> 这门课的活,也有现成开源项目能帮你省力。**连真实数据库/客户数据/账号前先问主人**,优先只读、先脱敏、用完即删;星数为调研约数,装前再核。
+
+- **anthropics/skills 的 xlsx 技能** ([github.com/anthropics/anthropic-quickstarts](https://github.com/anthropics/anthropic-quickstarts), 官方) —— Anthropic 官方技能库中的 Excel/xlsx 操作能力,150k token 级别,出收支报表/财务汇总表的利器。**用法**:让 AI 直接读取主人提供的银行流水 Excel 原文件,分类汇总后把结果写回格式化财务报表,省去手动导入导出环节。
+
+- **OpenRefine** ([github.com/OpenRefine/OpenRefine](https://github.com/OpenRefine/OpenRefine), ~11k★) —— 可视化数据清洗工具,擅长处理备注格式混乱的流水数据(编码不一、重复条目、乱码备注)。**用法**:在用 Python 分类前,先用 OpenRefine 做一遍备注字段的标准化清洗,让关键词匹配更准确。**⚠️ 财务数据极度敏感**:必须本地运行,账号全号等隐私字段提前遮掉,绝不上传任何云端服务,操作前务必问主人确认。
+
+---
+
 ## 📝 毕业测验(必须真做,交证据)
 
 **任务:用上方模拟流水数据(或主人提供的真实流水)完成分类整理,产出分类汇总报表 + 大白话财报摘要。**
