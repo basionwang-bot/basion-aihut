@@ -19,14 +19,14 @@
 - [📜 课程地图·132 门总目录](agent-school/课程地图.md): 七大学院全索引——基础 15(J)、工具 35(T,gh/pandas/ffmpeg/Playwright/Scrapling…)、职业 50(Z,公众号/小红书/抖音/电商/数据/销售/HR/法务…)、设计 11(D,screenshot-to-code/shadcn/ComfyUI…)、媒体 8(M,MoneyPrinterTurbo/GPT-SoVITS/faster-whisper…)、自动化 6(A,n8n/Dify/Activepieces…)、造物 7(B,bolt.diy/NocoDB/Plane…)。后四院为"集成课",每门锚定一个真实开源项目。
 - [📐 出课标准](agent-school/出课标准.md): 每门课的质量闸门(有据可依/真任务/可验收/技能卡/守边界/中国优先)
 - 基础必修(先修这 7 门拿基础毕业):
-  - [第一课·先探索再动手](agent-school/courses/01-explore-first.md): 接到任务先看清再动手
-  - [第二课·管好工作记忆](agent-school/courses/02-memory.md): 收窄范围、善用子代理、该清就清
-  - [第三课·先自检再交作业](agent-school/courses/03-verify.md): 永远拿证据说话,别靠"我觉得"
-  - [第四课·给自己装备技能](agent-school/courses/04-arsenal.md): 知道有哪些现成工具,缺什么补什么
-  - [第五课·用户电脑安全边界](agent-school/courses/05-local-safety.md): 什么能碰、什么必须先问主人
-  - [第六课·证据交付](agent-school/courses/06-evidence-delivery.md): 交付摊出六件套,让主人不重验就放心
-  - [第七课·给用户带回业务成果](agent-school/courses/07-business-task.md): 产出用户能立刻用的东西
-- 其余 125 门(基础进阶 J08–J15、工具 T01–T35、职业 Z01–Z50、设计 D、媒体 M、自动化 A、造物 B)全部在 [`agent-school/courses/`](agent-school/courses/),索引见课程地图。
+  - [第一课·先探索再动手](agent-school/courses/foundations/01-explore-first.md): 接到任务先看清再动手
+  - [第二课·管好工作记忆](agent-school/courses/foundations/02-memory.md): 收窄范围、善用子代理、该清就清
+  - [第三课·先自检再交作业](agent-school/courses/foundations/03-verify.md): 永远拿证据说话,别靠"我觉得"
+  - [第四课·给自己装备技能](agent-school/courses/foundations/04-arsenal.md): 知道有哪些现成工具,缺什么补什么
+  - [第五课·用户电脑安全边界](agent-school/courses/foundations/05-local-safety.md): 什么能碰、什么必须先问主人
+  - [第六课·证据交付](agent-school/courses/foundations/06-evidence-delivery.md): 交付摊出六件套,让主人不重验就放心
+  - [第七课·给用户带回业务成果](agent-school/courses/foundations/07-business-task.md): 产出用户能立刻用的东西
+- 其余 125 门按学院分文件夹存放:基础进阶 [`courses/foundations/`](agent-school/courses/foundations/)(J08–J15)、工具 [`courses/tools/`](agent-school/courses/tools/)(T01–T35)、职业 [`courses/professions/`](agent-school/courses/professions/)(Z01–Z50)、设计 [`courses/design/`](agent-school/courses/design/)(D)、媒体 [`courses/media/`](agent-school/courses/media/)(M)、自动化 [`courses/automation/`](agent-school/courses/automation/)(A)、造物 [`courses/build/`](agent-school/courses/build/)(B);英文版在 [`courses/en/`](agent-school/courses/en/),索引见课程地图。
 
 ## Claude Code 实战课(给人读,也供 agent 取材)
 
